@@ -260,11 +260,22 @@ flex-direction: column;
 gap: 20px;
 }
 .footer{
-background-color: rgb(228, 223, 223);
+background-color: rgb(240, 239, 239);
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 .footer >div{
     display: flex;
     gap: 15px;
 padding-top: 20px;
 padding-bottom: 15px;
+}
+.footer div{
+    padding-left: 10px;
+padding-right: 10px;
+}
+.footer-icons{
+font-size: 20px;
+
 }
